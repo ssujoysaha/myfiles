@@ -1,0 +1,39 @@
+== Simple Instructions ==
+(If these don't work, look below)
+
+1. Download wireshark source code, either via tarball or source control
+2. At least run ./configure on wireshark source (no need to build it)
+3. Set WIRESHARK environment variable to your wireshark source dir
+   (such that epan/epan.h is a valid #include line)
+4. Install Scons if you don't already have it
+5. cd src; scons install
+
+== Building on MacOS X ==
+
+The build has been tested on MacOS X 10.7.4 with Xcode 4.2.  Wireshark needs to be
+installed via Brew, although you *also* still need the wireshark source download that
+matches the version installed by Brew.  After installing with Brew, you can run
+./configure in the Wireshark source download to generate the config.h that matches
+your environment and then set the WIRESHARK environment variable as you would given
+the instructions above.  Once you have installed wireshark, generated config.h, and
+set the WIRESHARK environment variable, the plugin should build as on linux.
+
+== Dependencies / Requirements ==
+This plugin should build on any posix-compliant system that looks like Linux or *BSD,
+but is unlikely to build on MacOS X unless your environment is somewhat perfect.  This
+will hopefully be resolved in the future.  It also does not currently build on windows
+but this is not particularly difficult and will also be resolved in a future commit.
+
+While you do not actually *need* a full Wireshark source tarball/checkout, it's the
+easiest package to acquire which will provide the proper dependencies.  Realistically
+the build process only needs the Wireshark headers, but unfortunately it needs the
+config.h header which is only generated after you run configure.
+
+As such, you generally need the following things:
+ * A functional C build and link environment
+ * Wireshark source code
+ * pkg-config
+ * glib2 libraries and headers
+ * Scons (http://www.scons.org/)
+
+Please report any issues with the build process to nick.bastin@gmail.com

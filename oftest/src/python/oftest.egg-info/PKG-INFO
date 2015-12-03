@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: oftest
+Version: 0.0.1
+Summary: An OpenFlow Testing Framework
+Home-page: UNKNOWN
+Author: Dan Talayco/Tatsuya Yabe
+Author-email: dtalayco@stanford.edu
+License: unspecified
+Description: OpenFlow test framework package.
+              
+Keywords: networking protocol Internet OpenFlow validation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
