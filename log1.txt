@@ -1,0 +1,210 @@
+eth0      Link encap:Ethernet  HWaddr 08:00:27:34:55:10  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fe34:5510/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:368 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:394 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:36732 (36.7 KB)  TX bytes:33394 (33.3 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:11600 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11600 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:689702 (689.7 KB)  TX bytes:689702 (689.7 KB)
+
+s10-eth1  Link encap:Ethernet  HWaddr 2a:a5:e0:08:56:02  
+          inet6 addr: fe80::28a5:e0ff:fe08:5602/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:12 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32236 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:936 (936.0 B)  TX bytes:43753412 (43.7 MB)
+
+s10-eth2  Link encap:Ethernet  HWaddr 86:44:82:fd:87:bb  
+          inet6 addr: fe80::8444:82ff:fefd:87bb/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16205 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:22182738 (22.1 MB)  TX bytes:1536 (1.5 KB)
+
+s10-eth3  Link encap:Ethernet  HWaddr 12:2f:6c:e1:e1:22  
+          inet6 addr: fe80::102f:6cff:fee1:e122/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16037 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:21957758 (21.9 MB)  TX bytes:468 (468.0 B)
+
+s5-eth1   Link encap:Ethernet  HWaddr 02:d9:a1:00:4a:d3  
+          inet6 addr: fe80::d9:a1ff:fe00:4ad3/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16259 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:30 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:22036726 (22.0 MB)  TX bytes:2256 (2.2 KB)
+
+s5-eth2   Link encap:Ethernet  HWaddr 36:58:71:4d:5a:24  
+          inet6 addr: fe80::3458:71ff:fe4d:5a24/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:6 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16236 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:468 (468.0 B)  TX bytes:22230388 (22.2 MB)
+
+s5-eth3   Link encap:Ethernet  HWaddr 96:cf:1d:06:44:ad  
+          inet6 addr: fe80::94cf:1dff:fe06:44ad/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:19 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16232 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1446 (1.4 KB)  TX bytes:22230088 (22.2 MB)
+
+s6-eth1   Link encap:Ethernet  HWaddr 6a:69:d6:5b:d0:74  
+          inet6 addr: fe80::6869:d6ff:fe5b:d074/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16203 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:21988314 (21.9 MB)  TX bytes:2436 (2.4 KB)
+
+s6-eth2   Link encap:Ethernet  HWaddr b2:43:e8:bb:30:4e  
+          inet6 addr: fe80::b043:e8ff:febb:304e/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:10 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16197 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:768 (768.0 B)  TX bytes:22182138 (22.1 MB)
+
+s6-eth3   Link encap:Ethernet  HWaddr ea:c9:8d:be:93:49  
+          inet6 addr: fe80::e8c9:8dff:febe:9349/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:20 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16205 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1536 (1.5 KB)  TX bytes:22182738 (22.1 MB)
+
+s7-eth1   Link encap:Ethernet  HWaddr 3a:e3:ad:05:48:ea  
+          inet6 addr: fe80::38e3:adff:fe05:48ea/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16236 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:22230388 (22.2 MB)  TX bytes:468 (468.0 B)
+
+s7-eth2   Link encap:Ethernet  HWaddr 66:1e:e1:2f:f3:11  
+          inet6 addr: fe80::641e:e1ff:fe2f:f311/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16197 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:22182138 (22.1 MB)  TX bytes:768 (768.0 B)
+
+s7-eth3   Link encap:Ethernet  HWaddr e2:53:1b:58:56:57  
+          inet6 addr: fe80::e053:1bff:fe58:5657/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:6 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16360 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:468 (468.0 B)  TX bytes:22405448 (22.4 MB)
+
+s8-eth1   Link encap:Ethernet  HWaddr da:45:31:d7:d8:dc  
+          inet6 addr: fe80::d845:31ff:fed7:d8dc/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16360 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:22405448 (22.4 MB)  TX bytes:468 (468.0 B)
+
+s8-eth2   Link encap:Ethernet  HWaddr 8e:cc:a0:dd:32:ca  
+          inet6 addr: fe80::8ccc:a0ff:fedd:32ca/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:10 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15974 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:768 (768.0 B)  TX bytes:21876628 (21.8 MB)
+
+s8-eth3   Link encap:Ethernet  HWaddr c2:fd:0b:53:27:b3  
+          inet6 addr: fe80::c0fd:bff:fe53:27b3/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:6 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16037 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:468 (468.0 B)  TX bytes:21957758 (21.9 MB)
+
+s9-eth1   Link encap:Ethernet  HWaddr 86:5b:69:ec:be:a1  
+          inet6 addr: fe80::845b:69ff:feec:bea1/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:12 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:32200 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:936 (936.0 B)  TX bytes:43719920 (43.7 MB)
+
+s9-eth2   Link encap:Ethernet  HWaddr 92:09:0f:f3:6d:c9  
+          inet6 addr: fe80::9009:fff:fef3:6dc9/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:16232 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:19 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:22230088 (22.2 MB)  TX bytes:1446 (1.4 KB)
+
+s9-eth3   Link encap:Ethernet  HWaddr fa:7c:11:01:86:0d  
+          inet6 addr: fe80::f87c:11ff:fe01:860d/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:15974 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:21876628 (21.8 MB)  TX bytes:768 (768.0 B)
+
+tap0      Link encap:Ethernet  HWaddr 00:00:00:00:00:05  
+          inet6 addr: fe80::200:ff:fe00:5/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 B)  TX bytes:468 (468.0 B)
+
+tap1      Link encap:Ethernet  HWaddr 00:00:00:00:00:06  
+          inet6 addr: fe80::200:ff:fe00:6/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 B)  TX bytes:468 (468.0 B)
+
+tap2      Link encap:Ethernet  HWaddr 00:00:00:00:00:0a  
+          inet6 addr: fe80::200:ff:fe00:a/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 B)  TX bytes:468 (468.0 B)
+
+tap3      Link encap:Ethernet  HWaddr 00:00:00:00:00:09  
+          inet6 addr: fe80::200:ff:fe00:9/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 B)  TX bytes:468 (468.0 B)
+
+tap4      Link encap:Ethernet  HWaddr 00:00:00:00:00:08  
+          inet6 addr: fe80::200:ff:fe00:8/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 B)  TX bytes:468 (468.0 B)
+
+tap5      Link encap:Ethernet  HWaddr 00:00:00:00:00:07  
+          inet6 addr: fe80::200:ff:fe00:7/64 Scope:Link
+          UP BROADCAST RUNNING PROMISC MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:500 
+          RX bytes:0 (0.0 B)  TX bytes:468 (468.0 B)
+
