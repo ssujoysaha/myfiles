@@ -1,34 +1,4 @@
-/* Copyright (c) 2012, Budapest University of Technology and Economics
- * All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- *
- *   * Redistributions of source code must retain the above copyright notice,
- *     this list of conditions and the following disclaimer.
- *   * Redistributions in binary form must reproduce the above copyright
- *     notice, this list of conditions and the following disclaimer in the
- *     documentation and/or other materials provided with the distribution.
- *   * Neither the name of the Ericsson Research nor the names of its
- *     contributors may be used to endorse or promote products derived from
- *     this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
- * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- * POSSIBILITY OF SUCH DAMAGE.
- *
- *
- * Author: Felicián Németh <nemethf@tmit.bme.hu>
- * Author: Feng Yuan
- */
+
 #include <netinet/in.h>
 #include "packet.h"
 #include "openflow/openflow.h"
@@ -44,10 +14,10 @@
 #define LOG_MODULE VLM_dp_exp_bme
 static struct vlog_rate_limit rl = VLOG_RATE_LIMIT_INIT(60, 60);
 
-#define XOR_ENCODING_WAIT 2000 /* max. time in ms to wait for packets
+#define XOR_ENCODING_WAIT 20000 /* max. time in ms to wait for packets
 			        * of the other flow before seding out a
 			        * packet alone */
-#define PENDING_MAX_LENGTH 1000  /* max. number of packets in pending lists */
+#define PENDING_MAX_LENGTH 10000  /* max. number of packets in pending lists */
 
 #define SQR(A) ((A) * (A))
 #define LIST_POP_FRONT(A) (list_pop_front((struct list*)A))
